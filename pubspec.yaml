@@ -9,12 +9,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # Add the following line
+  # Add the following two lines
   google_maps_flutter: ^2.0.1
+  http: ^0.13.1
+  json_serializable: ^4.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  # Add the following two lines
+  pedantic: ^1.11.0
+  build_runner: ^1.10.0
 
 flutter:
   uses-material-design: true
